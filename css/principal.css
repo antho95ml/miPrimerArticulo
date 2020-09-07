@@ -1,0 +1,53 @@
+/*-----------------ESTILO DE UN IDENTIFICADOR---------------------*/
+#arriba{ 
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+
+/*-----------------ESTILO DE UN ENLACE---------------------*/
+a{
+    text-decoration: none; /*none: le quita el subrayado que viene por default en los links*/
+    color:cyan;
+} 
+
+a:hover{ /*----------------PSEUDOSELECTOR DE ENLACES---------------------*/
+    color: black; /*Cuando pase el puntero por encima se pone NEGRO*/
+}
+
+p:hover{ /*----------------PSEUDOSELECTOR DE PARRAFOS---------------------*/
+    color: red; /*Cuando pase el puntero por encima se pone NEGRO*/
+}
+
+input:focus{ /*----------------PSEUDOSELECTOR DEL INPUT TYPE--------------------*/
+    background-color: rgba(240, 240, 15, 0.753);
+}
+
+
+/*-----------------ESTILO DE UNA ETIQUETA SEMÁNTICA---------------------*/
+nav{
+    background-color: rgba(167, 23, 23, 0.644); /*pra que se logre ver la navegacion de los links*/
+}
+
+
+/*-----------------ESTILO DE UNA CLASE---------------------*/
+.alinearCentro{ 
+    text-align: center;
+}
+
+.alinearDerecha{
+    text-align: end;
+}
+
+.fondovioleta{
+    background-color: violet;
+}
+
+.flechaArriba{
+    color: yellow;
+    font-size: medium;
+
+}
+
+
